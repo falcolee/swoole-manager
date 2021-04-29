@@ -1,0 +1,40 @@
+{
+    "name": "falcolee/swoole-manager",
+    "version":"1.0.0",
+    "description": "Laravel package to extend swooletw/laravel package",
+    "license": "MIT",
+    "keywords": [
+        "laravel swoole package",
+        "laravel swoole timer"
+    ],
+    "homepage": "https://github.com/falcolee/swoole-manager",
+    "authors": [
+        {
+            "name": "Falco Lee",
+            "email": "skylzl1007@gmail.com",
+            "homepage": "https://github.com/falcolee",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+        "swooletw/laravel-swoole": "^2.8"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Falcolee\\SwooleManager\\": "src"
+        }
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Falcolee\\SwooleManager\\SwooleManagerServiceProvider"
+            ]
+        }
+    }
+}
