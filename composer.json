@@ -1,6 +1,5 @@
 {
     "name": "falcolee/swoole-manager",
-    "version":"0.0.1",
     "description": "Laravel package to extend swooletw/laravel package",
     "license": "MIT",
     "keywords": [
