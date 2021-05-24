@@ -1,7 +1,15 @@
 ## swoole manager
 
+## install
+`composer require falcolee/swoole-manager`
+
 ## config
-`php artisan vendor:publish --provider="Falcolee\SwooleManager\SwooleManagerServiceProvider"`
+```
+//laravel-swoole config file
+php artisan vendor:publish --tag=laravel-swoole
+//swooleman config file
+php artisan vendor:publish --provider="Falcolee\SwooleManager\SwooleManagerServiceProvider"
+```
 
 ## timer
 `config/swooleman.php`
